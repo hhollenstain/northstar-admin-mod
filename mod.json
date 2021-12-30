@@ -7,7 +7,7 @@
 	// ui inits need to happen before so our init callbacks get called
 	"ConVars": [
 		{
-			"Name": "grant_admin",
+			"Name": "rcon_admin",
 			"DefaultValue": "name1,name2,name3" // edit this to add admins or UID
 		}
 	],

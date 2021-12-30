@@ -14,7 +14,7 @@ void function Gift_Admin_Init()
 
 void function UpdateGift_AdminList()
 {
-	string cvar = GetConVarString( "grant_admin" )
+	string cvar = GetConVarString( "rcon_admin" )
 	if ( file.Gift_AdminStringLastVal == cvar )
 		return
 	
